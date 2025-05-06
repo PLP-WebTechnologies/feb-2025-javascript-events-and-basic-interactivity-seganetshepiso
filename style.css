@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Event Handling Section */
+#event-handling {
+    margin-bottom: 30px;
+}
+
+#clickButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clickButton:hover {
+    background-color: #0056b3;
+}
+
+#hoverDiv {
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+#keypressInput {
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+/* Interactive Elements Section */
+#interactive-elements {
+    margin-bottom: 30px;
+}
+
+#colorChangeButton {
+    padding: 10px 20px;
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#colorChangeButton:hover {
+    background-color: #E64A19;
+}
+
+#imageGallery {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#galleryImage {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#nextImage {
+    padding: 5px 10px;
+    background-color: #673AB7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nextImage:hover {
+    background-color: #512DA8;
+}
+
+#tabs {
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 15px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.tab:hover {
+    background-color: #1976D2;
+}
+
+.tabContent {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+/* Form Validation Section */
+#form-validation {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45A049;
+}
+
+#feedback {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

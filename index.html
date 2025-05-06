@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events & Interactivity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Events & Interactivity</h1>
+    </header>
+
+    <main>
+        <!-- Event Handling Section -->
+        <section id="event-handling">
+            <h2>Event Handling 🎈</h2>
+            <button id="clickButton">Click Me</button>
+            <div id="hoverDiv" style="width: 200px; height: 50px; background-color: lightgray; margin-top: 10px;">Hover Over Me</div>
+            <input type="text" id="keypressInput" placeholder="Type something..." />
+            <p id="secretAction">Double-click or long press here!</p>
+        </section>
+
+        <!-- Interactive Elements Section -->
+        <section id="interactive-elements">
+            <h2>Interactive Elements 🎮</h2>
+            <button id="colorChangeButton">Change My Color</button>
+            <div id="imageGallery">
+                <img id="galleryImage" src="image1.jpg" alt="Gallery Image" style="width: 300px; height: auto;" />
+                <button id="nextImage">Next</button>
+            </div>
+            <div id="tabs">
+                <button class="tab" data-tab="1">Tab 1</button>
+                <button class="tab" data-tab="2">Tab 2</button>
+                <div id="tabContent1" class="tabContent">Content for Tab 1</div>
+                <div id="tabContent2" class="tabContent" style="display: none;">Content for Tab 2</div>
+            </div>
+        </section>
+
+        <!-- Form Validation Section -->
+        <section id="form-validation">
+            <h2>Form Validation 📋✅</h2>
+            <form id="form">
+                <input type="text" id="name" placeholder="Name" required />
+                <input type="email" id="email" placeholder="Email" required />
+                <input type="password" id="password" placeholder="Password" required />
+                <button type="submit">Submit</button>
+                <p id="feedback"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Happy Coding! 💻✨</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
